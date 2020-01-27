@@ -1,4 +1,4 @@
-import Matrix2 from '../classes/Matrix2.js';
+import Matrix2 from '../classes/matrix2.js';
 
 class NeuralNet {
 	constructor(input, hidden, output, hiddenLayers) {
