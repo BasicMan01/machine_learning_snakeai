@@ -11,7 +11,7 @@ class Food {
 	}
 
 	clone() {
-		let clone = new Food(this.config);
+		let clone = new Food(this.tiles);
 
 		clone.pos.x = this.pos.x;
 		clone.pos.y = this.pos.y;
